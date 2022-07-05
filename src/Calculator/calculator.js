@@ -1,4 +1,6 @@
 import React from 'react';
+import operate from '../logic/operate'
+import calculate from '../logic/calculate'
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
   render() {
@@ -10,7 +12,7 @@ class Calculator extends React.Component {
             <button type="button" className="normal">AC</button>
             <button type="button" className="normal">+/-</button>
             <button type="button" className="normal">%</button>
-            <button type="button" className="normal active"><span>&#247;</span></button>
+            <button type="button" className="normal active">÷</button>
             <button type="button" className="normal">7</button>
             <button type="button" className="normal">8</button>
             <button type="button" className="normal">9</button>
