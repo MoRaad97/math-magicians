@@ -10,7 +10,7 @@ const Calculator = () => {
   };
 
   return (
-    <>
+    <section className='calculator'>
       <div className="calculator-container">
         <div className="screen"><span className="result">{obj.next || obj.total || 0}</span></div>
         <div className="buttons">
@@ -35,7 +35,7 @@ const Calculator = () => {
           <button type="button" className="normal active" onClick={result}>=</button>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
