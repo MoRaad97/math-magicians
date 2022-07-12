@@ -150,15 +150,19 @@ button:active {
     justify-content: center;
     height: 65px;
   }
+
   .nav-title {
     display: none;
   }
+
   .my-calc {
     display: none;
   }
+
   .calculator-container {
     width: 100%;
   }
+
   .container {
     padding: 0 20px;
     color: #03a9f4;

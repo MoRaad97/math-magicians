@@ -10,8 +10,8 @@ const Calculator = () => {
   };
 
   return (
-    <section className='calculator'>
-      <div className='my-calc'>Let's Do Some Math Magic:</div>
+    <section className="calculator">
+      <div className="my-calc">Let&apos;s Do Some Math Magic:</div>
       <div className="calculator-container">
         <div className="screen"><span className="result">{obj.next || obj.total || 0}</span></div>
         <div className="buttons">
