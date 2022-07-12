@@ -5,8 +5,8 @@ const Home = () => {
    <section className="home">
     <div className="container">
       <h2 style={{fontSize: "30px", marginTop: "0",}}>Welcome To Our Page</h2>
-      <p style={{fontSize: "25px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident minus assumenda laboriosam id ex nam eos numquam harum, sint nobis accusamus ab voluptatem? Iusto, exercitationem possimus officia voluptate hic impedit.</p>
-      <p style={{fontSize: "25px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quasi unde. Inventore temporibus aperiam deserunt reiciendis, possimus iure optio amet voluptate nam alias quis iste iusto asperiores quam facilis ullam.</p>
+      <p style={{fontSize: "25px"}}>Mathematics (from Ancient Greek μάθημα; máthēma: 'knowledge, study, learning') is an area of knowledge that includes such topics as numbers (arithmetic, number theory) formulas and related structures (algebra) shapes and the spaces in which they are contained (geometry) and quantities and their changes.</p>
+      <p style={{fontSize: "25px"}}>This Website has a contents a Calculator which let you do simple calculations and math Quotes.</p>
     </div>
    </section>
   )
