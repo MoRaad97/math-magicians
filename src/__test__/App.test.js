@@ -1,8 +1,9 @@
 import React from 'react';
+// import { BrowserRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
-import Quote from '../Components/quote'
+import App from '../App'
 
 it('render the Calculator Component', ()=> {
-const tree = renderer.create(<Quote/>).toJSON();
+const tree = renderer.create(<App />).toJSON();
 expect(tree).toMatchSnapshot()
 })
