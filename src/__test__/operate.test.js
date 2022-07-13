@@ -18,6 +18,9 @@ describe('Operation tests', () => {
   it('Modulo Operation ', () => {
     expect(operate(num, num, '%')).toEqual('0');
   });
+  it('Modulo Operation ', () => {
+    expect(operate(4, num, '%')).toEqual('1');
+  });
   it('division by zero Operation', () => {
     expect(operate(num, '0', '÷')).toEqual("Can't divide by 0.");
   });
