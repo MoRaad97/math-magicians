@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the Calculator Component 1`] = `
+Array [
+  <nav>
+    <div
+      className="nav-title"
+    >
+      <h1>
+        Math-Magicians
+      </h1>
+    </div>
+    <div
+      className="links"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <a
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </nav>,
+  <section
+    className="home"
+  >
+    <div
+      className="container"
+    >
+      <h2
+        style={
+          Object {
+            "fontSize": "30px",
+            "marginTop": "0",
+          }
+        }
+      >
+        Welcome To Our Page
+      </h2>
+      <p
+        style={
+          Object {
+            "fontSize": "25px",
+          }
+        }
+      >
+        Mathematics (from Ancient Greek μάθημα; máthēma: knowledge, study, learning) is an area of knowledge that includes such topics as numbers (arithmetic, number theory) formulas and related structures (algebra) shapes and the spaces in which they are contained (geometry) and quantities and their changes.
+      </p>
+      <p
+        style={
+          Object {
+            "fontSize": "25px",
+          }
+        }
+      >
+        This Website has a contents a Calculator which let you do simple calculations and math Quotes.
+      </p>
+    </div>
+  </section>,
+]
+`;

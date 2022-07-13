@@ -12,7 +12,17 @@ const App = () => (
       <Route path="/" element={<Home />} />
       <Route path="calculator" element={<Calculator />} />
       <Route path="quote" element={<Quote />} />
-      <Route path="*" element={<div style={{ color: 'red', fontSize: '50px' }}>ERROR PAGE NOT EXIST</div>} />
+      <Route
+        path="*"
+        element={(
+          <div style={{ color: 'red', fontSize: '50px' }}>
+            ERROR
+            <br />
+            {' '}
+            PAGE NOT EXIST
+          </div>
+)}
+      />
     </Routes>
   </BrowserRouter>
 
