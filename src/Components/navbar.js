@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link,Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 const Navbar = () => (
   <nav>
@@ -11,7 +11,7 @@ const Navbar = () => (
       <Link to="/calculator">Calculator</Link>
       <Link to="/quote">Quote</Link>
     </div>
-    <Outlet/>
+    <Outlet />
   </nav>
 );
 
