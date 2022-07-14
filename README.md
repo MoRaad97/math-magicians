@@ -13,7 +13,7 @@
 - Javascript
 - React
 
-## Live Demo (if available)
+## Live Demo
 
 - [Heroku live demo link](https://myreact-todo-list.herokuapp.com/)
 - [Netlify live demo link](https://62d01246e471a45e8c35dbcd--glittering-marigold-017f31.netlify.app/)
