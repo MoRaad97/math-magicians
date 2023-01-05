@@ -13,6 +13,10 @@
 - Javascript
 - React
 
+
+## Screenshots
+![ScreenShot_20230105144034](https://user-images.githubusercontent.com/89518488/210772205-89a961ac-1fde-4b56-b7ad-3279805a7215.png)
+
 ## Live Demo
 - [Netlify live demo link](https://mathmagic-moraad.netlify.app/)
 
